@@ -10,6 +10,6 @@ print(ano_formatura<=2010)
 print(ano_nascimento==1989)
 
 # Crie expressões comparativas mais complexas utilizando operadores lógicos and, or e not. Imprima na tela as respostas
-print(ano_nascimento<2000 and ano_formatura>2009)
-print(2100<5 or 2000>5)
-print(not 2100>2)
+print((ano_nascimento<2000) and (ano_formatura>2009))
+print((2100<5) or (2000>5))
+print(not (2100>2))
